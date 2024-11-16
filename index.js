@@ -1,9 +1,3 @@
-// console.log(Math);
-// console.log(Math.abs(-4));
-// console.log(Math.floor(5.9));
-// console.log(Math.max(5,9,8,4));
-
-
 console.log(Math.random());
 
 console.log(Math.random()*6);
