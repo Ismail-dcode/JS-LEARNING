@@ -1,13 +1,12 @@
-const instaUser = {}
+let isPurple = false;
 
-instaUser.id= "X2i"
-instaUser.name= "jarvis-2i"
-instaUser.email = "jarvis@gmail.com "
-instaUser.id= "Y2i"
-instaUser.name= "lucifer-2i"
-instaUser.email = "lucifer@gmail.com "
+function changeC() {
+    const box = document.querySelector('.box');
+    if(isPurple){
+        box.style.color='';
+    }else{
+        box.style.color='purple';
+    }
+    isPurple = !isPurple;
 
-const obj1 = Object.entries(instaUser);
-console.log(instaUser);
-
-
+}
